@@ -1,0 +1,36 @@
+.footer-container>hr{
+    width: 100%;
+}
+.footer-container{
+    padding: 1rem 2rem;
+}
+
+.footer>.social-links{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.footer>.social-links>img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.logo-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-f>img{
+    width: 9rem;
+    height: auto;
+    object-fit: contain;
+}

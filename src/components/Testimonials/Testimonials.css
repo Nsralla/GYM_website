@@ -85,3 +85,73 @@
     width: 1.2rem;
     height: 1.2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .Testimonials{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .Testimonials>.left-t{
+        gap: 1.4rem;
+    }
+    .Testimonials>.left-t{
+        padding: 1rem;
+    }
+    .left-t>h1{
+        font-size: 1.5rem;
+    }
+    .left-t>:nth-child(2)
+    {
+        font-size: 1.5rem;
+    }
+    .left-t>:nth-child(3)>span{
+        font-size: small;
+    }
+    .left-t>:nth-child(3)>span{
+    line-height: 1rem;
+    letter-spacing: 1px;
+    color: white;
+    
+}
+    .left-t>:nth-child(4)>:nth-child(1){
+        font-size: small;
+    }
+    .left-t>:nth-child(4)>:nth-child(2){
+        margin-top: 0;
+        font-size: small;
+    }
+    .right-t{
+        padding: 1rem;
+    }
+    .right-t>.reviewer-img{
+        top: 1rem;
+        right: 1rem;
+        width: 10rem;
+        height: 12rem;
+    }
+    .right-t>:nth-child(1){
+        height: 10rem;
+        width: 10rem;
+        top: 0.5rem;
+        right: 1rem;
+    }
+    .right-t>:nth-child(2){
+        height: 12rem;
+        width: 8rem;
+        top: 1.5rem;
+        right: 1rem;
+    }
+    .right-t>:nth-child(4){
+        top: 2rem;
+        left: 3rem;
+    }
+    .right-t>:nth-child(4)>:nth-child(2){
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    
+    .right-t>:nth-child(4)>:nth-child(1){
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+}
